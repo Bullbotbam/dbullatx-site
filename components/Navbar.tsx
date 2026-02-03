@@ -9,7 +9,7 @@ export default function Navbar() {
       {/* Branding */}
       <Link href="/" className="flex items-center gap-3 group">
         <Image 
-          src="/dbulla-logo.png" 
+          src="/assets/image/dbullatx_logo.png" 
           alt="dbullatx logo" 
           width={32} 
           height={32} 
@@ -17,10 +17,10 @@ export default function Navbar() {
         />
         <div className="flex flex-col">
           <span className="font-bold tracking-tighter text-lg leading-none uppercase">
-            dbulla<span className="text-gray-500 font-light">atx</span>
+            dBull<span className="text-gray-500 font-light">ATX</span>
           </span>
           <span className="text-[8px] tracking-[0.3em] text-gold uppercase font-semibold">
-            Execution
+            Austin, Texas
           </span>
         </div>
       </Link>
@@ -31,9 +31,12 @@ export default function Navbar() {
           href="#book" 
           className="group flex items-center gap-2 text-[10px] uppercase tracking-luxury font-bold border border-white/20 px-6 py-2.5 hover:bg-white hover:text-black transition-all duration-500"
         >
-          Book Consulting <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
+          Project Management Consulting with Product Development Services<ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
         </Link>
       </div>
     </nav>
   );
 }
+
+
+

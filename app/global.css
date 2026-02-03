@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Point directly to your folders from the CSS file's perspective */
+@source ".";
+@source "./**/*.{js,ts,jsx,tsx,mdx}";
+@source "../components/**/*.{js,ts,jsx,tsx,mdx}";
+
+@theme {
+  --color-gold: #d4af37;
+  --tracking-luxury: 0.4em;
+  --tracking-atx: 0.6em;
+}
+
+/* Base test - if this works, the bridge is alive */
+@layer base {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
