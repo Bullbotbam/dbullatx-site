@@ -48,7 +48,7 @@ export default function Hero() {
             Architecture // Execution
           </h2>
           <h1 className="text-6xl md:text-9xl font-black uppercase tracking-tighter leading-none mb-8 italic">
-            dBulla<span className="not-italic font-thin text-white/80">atx</span>
+            dBull<span className="not-italic font-thin text-white/80">atx</span>
           </h1>
         </motion.div>
       </div>
